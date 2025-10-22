@@ -1,4 +1,4 @@
-import 'package:fintechapp/screens/home_screen.dart';
+import 'package:fintechapp/screens/onboarding_screens/screen1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,10 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-      
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeScreen(),
+      home: const Screen1(),
     );
   }
 }
