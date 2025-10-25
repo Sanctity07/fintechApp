@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Container(
                   width: double.infinity,
                   padding: const EdgeInsets.all(20),
-                  decoration: BoxDecoration(
+                  decoration: BoxDecoration( 
                     color: const Color.fromARGB(255, 13, 2, 107),
                     borderRadius: BorderRadius.circular(30),
                     image: const DecorationImage(

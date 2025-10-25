@@ -1,5 +1,6 @@
+import 'package:fintechapp/screens/signup_screens/register.dart';
 import 'package:flutter/material.dart';
-import 'package:fintechapp/screens/home_screen.dart';
+// import 'package:fintechapp/screens/home_screen.dart';
 
 class Screen3 extends StatelessWidget {
   const Screen3({super.key});
@@ -83,7 +84,7 @@ class Screen3 extends StatelessWidget {
                         const SizedBox(height: 30),
                         ElevatedButton(
                           onPressed: () {
-                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const HomeScreen()));
+                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const RegisterPage()));
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: const Color(0xff2812C9),
